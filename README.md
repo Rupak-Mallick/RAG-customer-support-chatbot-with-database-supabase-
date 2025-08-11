@@ -1,4 +1,4 @@
-***Customer Support AI Bot with Database***(h1)<br/>
+***Customer Support AI Bot with Database***<br/>
 This project is a Customer Support AI Bot that leverages LangChain, LangGraph, Pinecone vector database, and Supabase to build an intelligent chatbot system. It uses a retrieval-augmented generation (RAG) approach to answer user queries based on a knowledge base stored in a database, and stores chat history for future reference.
 
 **Features**:<br/>
