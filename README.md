@@ -1,7 +1,7 @@
-Customer Support AI Bot with Database
+**Customer Support AI Bot with Database**
 This project is a Customer Support AI Bot that leverages LangChain, LangGraph, Pinecone vector database, and Supabase to build an intelligent chatbot system. It uses a retrieval-augmented generation (RAG) approach to answer user queries based on a knowledge base stored in a database, and stores chat history for future reference.
 
-Features
+**Features**
 Retrieval-augmented chatbot powered by LangChain and LangGraph.
 
 Connects to Supabase to fetch knowledge base data and save chat history.
@@ -16,7 +16,7 @@ Interactive chat UI built with Gradio for easy testing and demo.
 
 Supports streaming response generation.
 
-Tech Stack
+**Tech Stack**
 LangChain, LangGraph — for AI agent orchestration and LLM integration
 
 Groq API (qwen3-32b model) — large language model backend
@@ -31,10 +31,10 @@ Gradio — frontend chat interface
 
 Google Colab — development environment
 
-Installation
-Clone the repository or download the notebook.
+**Installation**
+Clone the repository.
 
-Install dependencies:
+**Install dependencies:**
 
 bash
 Copy
@@ -64,7 +64,7 @@ Chat history is saved in Supabase for future analysis or audit.
 
 You can extend or customize the knowledge base by updating the Supabase table.
 
-Project Structure Overview
+**Project Structure Overview**
 Knowledge Base: Stored in Supabase, indexed with Pinecone for fast semantic retrieval.
 
 Workflow Graph:
@@ -77,12 +77,12 @@ History Node: saves conversation to database.
 
 Frontend: Gradio chatbot interface to interact with the AI agent.
 
-Notes
+**Notes**
 The project requires valid API keys for Groq and Pinecone.
 
 Make sure your Supabase tables (knowledge_base and chat_history) are set up correctly.
 
 The LLM prompt is designed to restrict answers strictly to knowledge base content.
 
-Contributing
+**Contributing**
 Contributions are welcome! Feel free to open issues or submit pull requests to improve the bot, add features, or fix bugs.
